@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" id="form1">
+        <label>Digite uma mensagem</label>
+        <input id="msg" />
+        <input type="submit" value="Enviar"/>
+    </form>
+    <ul id="messages">
+
+    </ul>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="/socket.io/socket.io.js"></script>
